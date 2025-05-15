@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DetailsService {
   private DB_Detail_URL = '';
-  private DB_Review_URL = 'https://hotel-40q0.onrender.com/reviews-for-hotel';
+  private DB_Review_URL = 'https://hotel-agency.onrender.com/reviews-for-hotel';
   constructor(private http: HttpClient) {}
   getAllDetails() {
     return this.http.get(this.DB_Detail_URL);
