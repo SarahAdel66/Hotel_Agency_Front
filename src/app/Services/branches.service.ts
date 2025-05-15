@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class BranchesService {
 
   constructor(private http: HttpClient) { }
-  private DB_URL = "https://hotel-40q0.onrender.com/branches";
+  private DB_URL = "https://hotel-agency.onrender.com/branches";
   getBranches() { 
     return this.http.get(this.DB_URL);
   }
