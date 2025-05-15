@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DashboardService {
 
-  private DB_URL = "https://hotel-40q0.onrender.com/"
+  private DB_URL = "https://hotel-agency.onrender.com/"
 
   constructor(private http: HttpClient) { }
 
