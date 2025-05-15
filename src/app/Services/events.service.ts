@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class EventsService {
-private DB_URL='https://hotel-40q0.onrender.com/events'
+private DB_URL='https://hotel-agency.onrender.com/events'
   constructor(private http:HttpClient) { }
   GetEvents(){
      return this.http.get(this.DB_URL)
