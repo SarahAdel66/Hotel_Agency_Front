@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class RoomsService {
-  private DB_URL='https://hotel-40q0.onrender.com/rooms'
+  private DB_URL='https://hotel-agency.onrender.com/rooms'
   constructor(private http:HttpClient) { }
   GetAllRooms(){
     return this.http.get(this.DB_URL)
