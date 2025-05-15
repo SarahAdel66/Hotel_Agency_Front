@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class UserService {
-  private DB_URL = "https://hotel-40q0.onrender.com/auth"
+  private DB_URL = "https://hotel-agency.onrender.com/auth"
   constructor(private http:HttpClient) { }
   regestration(newUser:any){
     return this.http.post(`${this.DB_URL}/reg`,newUser);
